@@ -1,16 +1,43 @@
 body{
-    background-color: blueviolet;
-    color: cornsilk;
+    background-image: url("img/TELECOMUNICAICONES.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
 }
-.titulos{
-    background-color: crimson;
-    width: 250px;
-    height: 250px;
-    
+.background-image{
+    size-adjust: 100%;
 }
-.imagen{
-   
-    width: 250px;
-    height: 250px;
+
+#lista {    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+}
+.separador {
+    color:gray;
+}
+#lista li {
+     display:inline;
+     padding-left:5px;
+     padding-right:5px;
+    background-color:rgb(240, 112, 112);
+}
+a {
+    color:rgb(235, 31, 31);
+    text-decoration:none;
+}
+a:hover {
+    color:rgb(0, 0, 0);
+    background-color:rgb(228, 92, 92);
+}
+
+table {
+    background-color:rgb(197, 197, 197) ;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:20px;
+    text-align: center;
+
     
 }
